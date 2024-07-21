@@ -1,0 +1,142 @@
+/*BANNER*/
+.banner{
+    background-color: transparent ;
+}
+
+.navbar-nav
+{
+    height: 80px;
+}
+
+.navbar-nav a
+{
+    text-decoration: none;
+    color:black;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.login-box-msg
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+}
+
+.form-group
+{
+    width: 350px;
+    margin: auto;
+}
+
+.form-control
+{
+    border-radius: 20px;
+    background: transparent;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.form-control:hover
+{
+    background-color: transparent;
+}
+
+.btn
+{
+    background-color: rgb(243, 189, 198);
+}
+
+.btn:hover{
+    background-color: rgb(176, 176, 235);
+    color: black;
+}
+
+#signup 
+{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+#signup:hover
+{
+    border-radius: 0 15px 0 15px;
+    background-color: pink;
+    color: black;
+}
+
+.alert ul>li{
+    list-style-type: none;
+}
+
+.alert-danger{
+    border-radius: 20px;
+    height: 97px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: center;
+}
+
+
+
+.btn-success
+{
+    width: 215px;
+    height: 38px;
+    border-radius: 0 15px 0 15px;
+}
+
+.btn-success:hover
+{
+    cursor: pointer;
+}
+
+.card-header
+{
+    border-top: 5px solid pink;
+    background-color: white;
+    color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+
+.label-style
+{
+    font-weight: bolder;
+    font-size:15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.input-style
+{
+    width: 1024px;
+    border: 2px solid pink;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 960px) { 
+	.input-style{ width:100%;}
+}
+
+.input-style:hover
+{
+    border: 2px solid rgb(176, 176, 235);;
+}
+
+.btn-danger
+{
+    
+ width: 80px;
+ display: inline-flex;
+ font-weight: bold;   
+}
+
+.btn-danger a:hover
+{
+    text-decoration: none;
+}
+
+
+
